@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hangman!</title>
+  <link rel="stylesheet" href="assests/css/reset.css">
+  <link rel="stylesheet" href="assests/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="main-heading"><center>Hangman!</center></h1>
+    <h2 id="sub-heading"><center>Bowling Edition</center></h2>
+    <h3 id="press-key"> Press any key to get started!</h3>
+    <div id="general-display">
+      <pre><p>Your Word</p></pre>
+      <pre><p> <span id="your-word"> </span> </p></pre>
+      <pre><p>Your Guesses</p></pre>
+      <pre><p><span id="your-guesses"> </span></p></pre>
+      <pre><p>Guesses Left: <span id="error-count"></span></p></pre>
+    </div>
+    <div id="stats-counter">
+      <p>-----------Stats----------- <span id="stats"></span> </p>
+      <pre><p>Wins: <span id="win-count"></span> </p></pre>
+			<pre><p>Losses: <span id="loss-count"></span> </p></pre>
+    </div>
+
+
+  <script src="assests/javascript/game.js" type="text/javascript">
+  </script>  
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+header{
+    background-color: grey;
+}
+
+footer{
+    background-color: green;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#left{
+    background-color: blue;
+    float: left;
+    width: 47%;
+    height: 450px;
+    padding: 25px; 
+    vertical-align: middle;
+    line-height: 440px;
+    margin-top: 25px;
+}
+
+#Right{
+    float:left;
+    background-color: red;
+    width: 23%;
+    height: 450px;
+    padding: 25px; 
+    position: absolute;
+    right: 0px;
+    vertical-align: middle;
+    line-height: 440px;
+    margin-top: 25px;
+}

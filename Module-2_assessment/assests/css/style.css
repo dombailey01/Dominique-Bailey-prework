@@ -1,0 +1,42 @@
+#main-heading{
+    font-family: 'Pacifico', cursive;
+    font-size: 50pt;
+    margin-top: 5%;
+}
+
+#sub-heading{
+    font-family: 'Caveat', cursive;
+    font-size: 50pt;
+    margin-left: 35%;
+}
+
+body{
+    background-image: url("../images/bowling-lane.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+#general-display{
+    font-family: 'Amatic SC', cursive;
+    padding-top: 3%;
+    font-weight: bold;
+    font-size: 25pt;
+    text-align: center;
+}
+
+#stats-counter{
+    font-family: 'Amatic SC', cursive;
+    padding-top: 3%;
+    font-weight: bold;
+    font-size: 25pt;
+    text-align: center;
+}
+
+#press-key{
+    font-family: 'Amatic SC', cursive;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 25pt;
+    text-align: center;
+}

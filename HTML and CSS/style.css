@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+background-color: rgb(96, 162, 173);
+
+}
+
+#website {
+  font-size: larger;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#subtitle {
+padding-top: 15%;
+font-size: medium;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+#title {
+  font-size: 85pt;
+  font-weight: bolder;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 1.5%;
+}
+
+#box{
+  width: 175px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 43.5%;
+  border-style: solid;
+  border-color: white;
+  border-width: 1.5px;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}

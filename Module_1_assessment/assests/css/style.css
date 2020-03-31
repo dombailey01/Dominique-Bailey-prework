@@ -1,0 +1,86 @@
+body {
+    background-image: url("../images/dark-paths.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container-fluid{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #666666;
+  color: white;
+  text-align: center;
+  border: 0px;
+  border-top: 5px #4aaaa5;
+  border-style: solid;
+  
+}
+
+.jumbotron{
+    margin: 0 auto;    
+    margin-top: 20px;
+    margin-bottom: 10%;
+    padding-top: 2%;
+    background-color: #ffffff;
+    color: #4aaaa5;
+    width: 75%;
+  }
+
+  .btn{
+    background-color: #4aaaa5;
+    color: #ffffff;
+  }
+
+  .about-me, .form-group{
+    color: #777777;
+  }
+
+  .display-4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .navbar{
+    background-color: #ffffff;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border: 0px;
+    border-bottom: #cccccc;
+    border-style: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .navbar-brand{
+    background-color: #4aaaa5;
+    font-size: 20pt;
+    font-weight: bolder;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 15%;
+  }
+
+  .row{
+    padding: 10px;
+  }
+
+  .navbar-nav{
+    padding-left: 52%;
+  }
+
+
+.text-block {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  bottom:20px;
+}
